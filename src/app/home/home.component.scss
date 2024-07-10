@@ -7,7 +7,8 @@ main {
     justify-items: flex-end;
     justify-content: space-between;
     #hool {
-      margin: 6.6em 0em -1em 4em;
+      margin: 6.6em 0em -0.6em 0em;
+      padding-left: 2em;
       h1 {
         font-family: sans-serif;
         font-weight: bolder;
@@ -17,7 +18,7 @@ main {
         margin-top: 1em;
         i {
           font-style: oblique;
-          margin-left: -1.5em;
+          margin-left: -0em;
         }
         span {
           margin-left: 15px;
@@ -29,7 +30,7 @@ main {
         font-size: 2em;
         i {
           font-style: oblique;
-          margin-left: -1.5em;
+          margin-left: -0em;
         }
         span {
           margin-left: 15px;
@@ -41,7 +42,7 @@ main {
         font-size: 2em;
         i {
           font-style: oblique;
-          margin-left: -1.5em;
+          margin-left: -0em;
         }
         span {
           margin-left: 15px;
@@ -51,6 +52,124 @@ main {
     }
     #two {
       margin: 7em 4em 0px 0em;
+      text-align: center;
+      img {
+        width: 10em;
+      }
+      #one {
+        margin-top: 1.6em;
+      }
+      #f1 {
+        margin-top: 12px;
+        text-align: center;
+        justify-items: center;
+
+        i {
+          color: burlywood;
+          text-align: center;
+        }
+      }
+      p {
+        margin-top: 1em;
+      }
     }
+  }
+}
+#h7 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+}
+#boy {
+  justify-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4em;
+  img{
+    border-radius: 12px;
+  }
+  #happi {
+    max-width: 30em;
+    flex-wrap: nowrap;
+    #ss1 {
+      text-decoration: solid;
+
+      #aya {
+        width: 2.5em;
+        height: 3.6em;
+      }
+      #fit {
+        margin-left: 1.2em;
+      }
+    }
+  }
+  #happi1 {
+    max-width: 30em;
+    flex-wrap: nowrap;
+    #ss11 {
+      text-decoration: solid;
+
+      #aya1 {
+        width: 2.5em;
+        height: 3.6em;
+      }
+      #fit1 {
+        margin-left: 1.2em;
+      }
+    }
+  }
+}
+#cook{
+// position: relative;
+margin-bottom: 3em;
+  #lo{
+    margin-left: 2em;
+    // position: absolute;
+    img{
+      border-radius: 5px;
+    }
+  }
+  #ve{
+    // position: absolute;
+    margin-left: 9em;
+  }
+}
+// #gop{
+//   // position: absolute;
+//   margin-top: 19em;
+// }
+
+button:hover{
+  background-color: cyan;
+  color: black;
+}
+button{
+  color: black;
+}
+hr{
+  margin: auto;
+  text-align: center;
+  top: 3em;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+#ddff{
+  max-width: 16em;
+  margin: auto;
+  justify-content: space-around;
+  img{
+    width: 8em;
+    padding: 7px;
+  }
+  img:hover{
+    background-color: burlywood;
+    zoom: 2;
+    cursor: pointer;
+    border-radius: 10px;
   }
 }
